@@ -21,24 +21,24 @@
 
 .bootstrap-grid .row > * {
   height: 100px;
-  border: 1px solid var(--white);
+  border: 1px solid var(--bs-white);
   padding: 10px;
 }
 
 .bootstrap-grid .row:nth-child(1) > * {
-  background-color: var(--purple);
+  background-color: var(--bs-purple);
 }
 
 .bootstrap-grid .row:nth-child(2) > * {
-  background-color: var(--navy);
+  background-color: var(--bs-blue);
 }
 
 .bootstrap-grid .row:nth-child(3) > * {
-  background-color: var(--teal);
+  background-color: var(--bs-teal);
 }
 
 .bootstrap-grid .row:nth-child(4) > * {
-  background-color: var(--green);
+  background-color: var(--bs-primary;
 }
 
 
