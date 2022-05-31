@@ -1,46 +1,88 @@
-
-.bootstrap-grid{
+.bootstrap-grid {
   text-align: center;
   background: linear-gradient(
-        45deg,
-        rgba(204, 88, 26, 0.747),
-        rgba(2, 1, 49, 0.671) 100%)
-  
+    45deg,
+    rgba(204, 88, 26, 0.747),
+    rgba(2, 1, 49, 0.671) 100%
+  );
 }
-
 
 .bootstrap-grid .row > * {
   height: 200px;
   border: 1px solid var(--white);
   padding: 200px;
-  
 }
 
 .bootstrap-grid .row:nth-child(1) > * {
-
 }
 
 .bootstrap-grid .row:nth-child(2) > * {
-  
 }
 
 .bootstrap-grid .row:nth-child(3) > * {
-  
 }
 
 .bootstrap-grid .row:nth-child(4) > * {
   background-color: var(--teal);
 }
+.nav-text {
+  color: var(--bs-gray);
+}
+.nav-container {
+  display: flex;
+  justify-content: right;
+  padding: 7px;
+}
+.nav-div {
+  border-radius: 7px;
+  padding: 5000px;
+}
+.nav-div:hover {
+  background-color: var(--bs-secondary);
+  cursor: pointer;
+  -webkit-transition: background-color 3s ease-out;
+  -moz-transition: background-color 3s ease-out;
+  -o-transition: background-color 3s ease-out;
+  transition: background-color 3s ease-out;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    rgba(204, 88, 26, 0.747),
+    rgba(2, 1, 49, 0.671) 100%
+  );
+}
+.item1 {
+  margin-top: 10%;
+}
 
+.item2 {
+  margin-top: 50%;
+  height: 60px;
+}
 
+.item3 {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.item4 {
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
 
 :root {
   --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
+  --bs-indigo: #12032b;
   --bs-purple: #6f42c1;
   --bs-pink: #b10059;
   --bs-red: #ff011a;
-  --bs-orange: #fd7e14;
+  --bs-orange: #fc7100cf;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -49,7 +91,7 @@
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
   --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-secondary: #222222;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
   --bs-warning: #ffc107;
