@@ -39,22 +39,23 @@
   margin-top: 10%;
 }
 .item-2 {
+  margin-top: 20%;
   max-width: 50%;
-  margin-top: 50%;
   height: 60px;
-}
-.item-3 {
-  max-width: 50%;
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-.item-4 {
-  max-width: 50%;
-  margin-top: 50%;
   margin-bottom: 10%;
 }
-.item-5{
-  margin-top: 40%;
+.item-3 {
+  margin-top: 10%;
+  max-width: 50%;
+  margin-bottom: 10%;
+}
+.item-4 {
+  margin-top: 10%;
+  max-width: 50%;
+  margin-bottom: 10%;
+}
+.picture-container{
+  margin-top: 10%;
 }
 
 
