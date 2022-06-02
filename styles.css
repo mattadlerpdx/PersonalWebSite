@@ -1,3 +1,6 @@
+
+
+
 .nav-text {
   color: var(--bs-gray);
 }
@@ -7,16 +10,16 @@
   padding: 7px;
 }
 .nav-div {
-  border-radius: 7px;
-  padding: 5000px;
+  border-radius: 6px;
+  padding: 5px;
 }
 .nav-div:hover {
   background-color: var(--bs-secondary);
   cursor: pointer;
-  -webkit-transition: background-color .5s ease-out;
-  -moz-transition: background-color .5s ease-out;
-  -o-transition: background-color .5s ease-out;
-  transition: background-color .5s ease-out;
+  -webkit-transition: background-color .35s ease-out;
+  -moz-transition: background-color .35s ease-out;
+  -o-transition: background-color .35s ease-out;
+  transition: background-color .35s ease-out;
 }
 .flex-container {
   display: flex;
@@ -46,13 +49,12 @@
   margin-bottom: 50%;
 }
 .item-4 {
-  max-width: 30%;
+  max-width: 50%;
   margin-top: 50%;
   margin-bottom: 10%;
 }
 .item-5{
-  margin-top: 50%;
-  
+  margin-top: 40%;
 }
 
 
