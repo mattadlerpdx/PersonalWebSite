@@ -18,7 +18,6 @@
   -o-transition: background-color .5s ease-out;
   transition: background-color .5s ease-out;
 }
-
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -32,29 +31,30 @@
     rgba(2, 1, 49, 0.671) 100%
   );
 }
-
-.item1 {
+.item-1 {
   max-width: 50%;
   margin-top: 10%;
 }
-
-.contain-text{
-  justify-content: center;
-}
-
-.item2 {
+.item-2 {
+  max-width: 50%;
   margin-top: 50%;
   height: 60px;
 }
+.item-3 {
+  max-width: 50%;
+  margin-top: 50%;
+  margin-bottom: 50%;
+}
+.item-4 {
+  max-width: 30%;
+  margin-top: 50%;
+  margin-bottom: 10%;
+}
+.item-5{
+  margin-top: 50%;
+  
+}
 
-.item3 {
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
-.item4 {
-  margin-top: 50%;
-  margin-bottom: 50%;
-}
 
 :root {
   --bs-blue: #0d6efd;

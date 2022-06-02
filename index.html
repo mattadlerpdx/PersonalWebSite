@@ -39,7 +39,7 @@
 </div>
 
 
-<nav class=" sticky-top nav-container navbar navbar-dark bg-dark bg-gradient">
+<nav class="nav-container navbar navbar-dark bg-dark bg-gradient">
   <div class="  nav-div d-flex p-1">
     <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
@@ -53,40 +53,63 @@
 
 
 <div class="flex-container justify-content-center">
-  <div class="item1">
+  <div class="item-1">
+
     <section id='About'>
       <h1>About Me</h1>
-      <h2>Student, volunteer, </h2>
-      <p class='contain-text'>After taking some time to travel and broaden my global exposure as a teacher in Taiwan, I
-        returned to PDX
-        to
-        enter the
-        masters program at PSU. Now with a year left in the program I’m intent to begin another chapter.</p>
-      <img class = "rounded"src="ROSE.jpg" alt="rose" />
 
+      <h2>Student, volunteer, </h2>
+      <p>After taking some time to travel and broaden my global exposure as a teacher in Taiwan, I
+        returned to PDX to enter the masters program at PSU. Now with a year left in the program I’m intent to begin
+        another chapter.</p>
     </section>
+
   </div>
-  <div class="item2">
+  <div class="item-2">
     <section id="Resume">
       <a href="Resume.html" class="btn btn-dark btn-lg active" role="button" aria-pressed="true"
         id="myButton">Resume</a>
     </section>
   </div>
 
-  <div class="item3">
-    <section id="Projects" class=" col-xl-9">
-      <a href="https://github.com/mattadlerpdx" class="btn btn-dark btn-lg active" role="button" aria-pressed="true"
-        id="myButton">Projects</a>
+  <div class="item-3">
+    <section id="Projects">
+      <a href="https://github.com/mattadlerpdx/programmingSytems-BattleRoyale" class="btn btn-dark btn-md active"
+        role="button" aria-pressed="true" id="myButton">Battle Royale</a>
+      <p>This is project from my pre-req courses at PSU. It simulates a battle royale program
+        implemented with datastructures like circular linked lists and arrays of linked lists.</p>
+      <a href="https://github.com/mattadlerpdx/flaskApp" class="btn btn-dark btn-md active" role="button"
+        aria-pressed="true" id="myButton">FlaskApp</a>
+      <p>You can upload photos let the application detect labels and translate those labels found in the photo--MVC
+        architecture, planned and
+        developed with Google Cloud Services. </p>
+      <a href="https://github.com/mattadlerpdx/computerSystemsProgramming-Plinko" class="btn btn-dark btn-md active"
+        role="button" aria-pressed="true" id="myButton">Plinko</a>
+      <p>A project from my computer systems programming course. 2d matrix Plinko board implemented in C.</p>
     </section>
   </div>
 
-  <div class="item4">
-    <section id='ContactMe'>
-      <h1>Say Hello</h1>
-      <a href="#ContactMe" class="btn btn-dark btn-lg active" role="button" aria-pressed="true"
-        id="myButton">Contact</a>
-    </section>
+  <div class="item-4 form-group row">
+    <form action="email-me" id='ContactMe'>
+
+      <div class="form-group row">
+        <label for="email">
+          <h1>Say Hello</h1>
+        </label>
+        <div>
+
+          <input type="email" class="form-control form-control-md" id="form-label" placeholder="....." label="hi">
+        </div>
+        <a href="#ContactMe" class=" mt-2 btn btn-dark btn-md active" role="button" aria-pressed="true"
+          id="myButton">Contact</a>
+    </form>
+    <div class="item-5">
+      <img class="rounded" src="ROSE.jpg" alt="rose" />
+    </div>
   </div>
+</div>
+
+
 
 
 
