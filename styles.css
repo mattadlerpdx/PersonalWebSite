@@ -21,6 +21,15 @@
   -o-transition: background-color .35s ease-out;
   transition: background-color .35s ease-out;
 }
+@media (min-width: 480px) { 
+  .item-1 {
+  max-width: 50%;
+  margin-top: 10%;
+};
+}
+
+
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -34,16 +43,22 @@
     rgba(2, 1, 49, 0.671) 100%
   );
 }
-.item-1 {
-  max-width: 50%;
-  margin-top: 10%;
-}
+
 .item-2 {
   margin-top: 20%;
   max-width: 50%;
   height: 60px;
   margin-bottom: 10%;
 }
+@media (min-width: 768px) { 
+  .item-2 {
+  max-width: 50%;
+  margin-top: 30%;
+  margin-bottom: 30%;
+};
+
+}
+
 .item-3 {
   margin-top: 10%;
   max-width: 50%;
@@ -54,9 +69,7 @@
   max-width: 50%;
   margin-bottom: 10%;
 }
-.picture-container{
-  margin-top: 10%;
-}
+
 
 
 :root {
