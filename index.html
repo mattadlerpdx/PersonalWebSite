@@ -13,7 +13,7 @@
 </head>
 
 <div class="collapse " id="navbarToggleExternalContent">
-  <div class="bg-dark p-4 ">
+  <div class=" bg-dark p-4 ">
     <ul class="navbar-nav ">
       <li class="nav-item container">
         <div class=" align-self-md-start flex-row d-flex justify-content-center">
@@ -32,7 +32,7 @@
       </li>
       <li class="nav-item container">
         <div class="align-self-md-start flex-row d-flex justify-content-center">
-          <a class=" nav-text nav-link " href="#ContactMe">Holler</a>
+          <a class=" nav-text nav-link " href="#ContactMe">Say Hello</a>
         </div>
       </li>
     </ul>
@@ -55,26 +55,23 @@
 
 <div class="flex-container ">
   <div class="item-1" id="About ">
-    <h1>Matt Adler</h1>
-    <p class="blockquote">Computer Science Student, Volunteer, Traveler</p>
+    <h1 class="header">Matt Adler</h1>
+    <p class="blockquote">Computer Science Student, Volunteer, Tutor, Coach</p>
     <p>After teaching abroad for a few years, I
-      returned to PDX and entered the graduate program in compsci at PSU. Seeking a full time position.
+      returned to PDX and entered the graduate program in computer science at PSU. Seeking a full time position.
     </p>
   </div>
 
-
-
-  <div class="item-2">
-    <p class="display-6">CV</p>
-
+  <div class="item-2 ">
+    <h2 style="margin:10px;">CV</h2>
     <section id="Resume">
-      <a href="resume.html" class="btn btn-dark btn-md active" role="button" aria-pressed="true" id="myButton">My
+      <a href="resume.html" class="btn btn-dark btn-md active" role="button" aria-pressed="true" id="cvButton">My
         Path</a>
     </section>
   </div>
 
   <div class="item-3">
-    <p class="display-6">Projects</p>
+    <h2 style="margin:25px;">Projects</h2>
     <section id="Projects">
       <a href="https://github.com/mattadlerpdx/programmingSytems-BattleRoyale" class="btn btn-dark btn-md active"
         role="button" aria-pressed="true" id="myButton">Battle Royale</a>
@@ -93,20 +90,27 @@
       <p>A project from my computer systems programming course. 2d matrix Plinko board implemented in C.</p>
     </section>
   </div>
-  <div class="item-4 form-group row">
-    <form action="email-me" id='ContactMe'>
-      <label for="contact-form">
-        <div class="form-group row">
-          <p class="display-6">Say Hello</p>
 
-          <input id="contact-form" type="email" name="form" value=" " class="form-control form-control-md"
-            placeholder="...">
-          <a href="#ContactMe" class=" mt-2 btn btn-dark btn-md active" role="button" aria-pressed="true"
-            id="myButton">Contact</a>
-      </label>
+  <div class='item-4'>
+    <form id='ContactMe'>
+      <h2>Message Me</h2>
+      <div class="form-group">
+        <label for="Name"></label>
+        <input type="Name" class="form-control" id="Name" aria-describedby="Name" placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label for="Email"></label>
+        <input type="Email" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email">
+      </div>
+      <div class="form-group">
+        <label for="Message"></label>
+        <input type="Message" class="form-control" id="Message" placeholder="Write message here">
+      </div>
+      <a href="#ContactMe" class="mt-2 btn btn-dark btn- active" role="button" aria-pressed="true"
+        id="myButton">Send</a>
     </form>
-  </div>
 
+  </div>
 </div>
 
 
