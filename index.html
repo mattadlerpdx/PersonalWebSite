@@ -56,14 +56,14 @@
 <div class="flex-container ">
   <div class="item-1" id="About ">
     <h1 class="header">Matt Adler</h1>
-    <p class="blockquote">Computer Science Student, Volunteer, Tutor, Coach</p>
+    <p class="blockquote">Computer Science Student</p>
     <p>After teaching abroad for a few years, I
       returned to PDX and entered the graduate program in computer science at PSU. Seeking a full time position.
     </p>
   </div>
 
   <div class="item-2 ">
-    <h2 style="margin:10px;">CV</h2>
+    <h2>CV</h2>
     <section id="Resume">
       <a href="resume.html" class="btn btn-dark btn-md active" role="button" aria-pressed="true" id="cvButton">My
         Path</a>
@@ -79,7 +79,9 @@
         implemented with datastructures like circular linked lists and arrays of linked lists.</p>
       <a href="https://github.com/mattadlerpdx/flaskApp" class="btn btn-dark btn-md active" role="button"
         aria-pressed="true" id="myButton">FlaskApp</a>
-      <p>You can upload photos and let Google's API detect labels in that photo. Another ML API is called to translate
+      <p>You can upload photos and let Google's API detect labels in that photo.
+
+        Another ML API is called to translate
         those
         labels
         in the five most spoken languages in the world--MVC
@@ -95,16 +97,16 @@
     <form id='ContactMe'>
       <h2>Message Me</h2>
       <div class="form-group">
-        <label for="Name"></label>
-        <input type="Name" class="form-control" id="Name" aria-describedby="Name" placeholder="Enter Name">
+        <label style="margin:5px;" for="Name">name</label>
+        <input type="text" class="form-control" id="Name" aria-describedby="Name" placeholder="Enter Name">
       </div>
       <div class="form-group">
-        <label for="Email"></label>
-        <input type="Email" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email">
+        <label style="margin:5px;" for="Email">email</label>
+        <input type="text" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email">
       </div>
-      <div class="form-group">
-        <label for="Message"></label>
-        <input type="Message" class="form-control" id="Message" placeholder="Write message here">
+      <div  class="form-group">
+        <label style="margin:5px;" for="Message">message</label>
+        <input type="text" class="form-control" id="Message" placeholder="Write message here">
       </div>
       <a href="#ContactMe" class="mt-2 btn btn-dark btn- active" role="button" aria-pressed="true"
         id="myButton">Send</a>
