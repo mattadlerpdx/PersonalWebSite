@@ -43,9 +43,9 @@ function checkMessage() {
 let item1 = document.querySelector(".item-1");
 let divImg = document.createElement("div");
 let img = document.createElement("img");
-img.src = 'mtn.jpeg';
+img.src = 'me.jpeg';
 
-img.setAttribute("alt", "Mountain");
+img.setAttribute("alt", "Matthew");
 img.style.borderRadius = "2.5%";
 img.style.margin = "5%";
 item1.append(divImg);
