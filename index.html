@@ -1,119 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matt Adler</title>
-  <script defer src="script.js"></script>
+  <script src="script.js" defer></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
   <link rel="stylesheet" href="styles.css" />
-
 </head>
-
-<div class="collapse " id="navbarToggleExternalContent">
-  <div class=" bg-dark p-4 ">
-    <ul class="navbar-nav ">
-      <li class="nav-item container">
-        <div class=" align-self-md-start flex-row d-flex justify-content-center">
-          <a class=" nav-text nav-link active " aria-current="page" href="#About">Who I Am</a>
-        </div>
-      </li>
-      <li class="nav-item container">
-        <div class="align-self-md-start flex-row d-flex justify-content-center">
-          <a class=" nav-text nav-link" href="#Resume">What I've Done</a>
-        </div>
-      </li>
-      <li class="nav-item container">
-        <div class="align-self-md-start flex-row d-flex justify-content-center">
-          <a class=" nav-text nav-link" href="#Projects">How I Think</a>
-        </div>
-      </li>
-      <li class="nav-item container">
-        <div class="align-self-md-start flex-row d-flex justify-content-center">
-          <a class=" nav-text nav-link " href="#ContactMe">Say Hello</a>
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-
-
-<nav class="nav-container navbar navbar-dark bg-dark bg-gradient">
-  <div class="  nav-div d-flex p-1">
-    <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-      <span class='navbar-text '>MA</span>
-    </button>
-  </div>
-</nav>
-
-
-
-<div class="flex-container ">
-  <div class="item-1" id="About ">
-    <h1 class="header">Matt Adler</h1>
-    <p class="blockquote about-me-text">Computer Science Student</p>
-    <p class="about-me-text" >After teaching abroad for a few years, I
-      returned to PDX and entered the graduate program in computer science at PSU. Seeking a full time position.
-    </p>
-  </div>
-
-  <div class="item-2 ">
-    <h2>CV</h2>
-    <section id="Resume">
-      <a href="resume.html" class="btn btn-dark btn-md active" role="button" aria-pressed="true" id="cvButton">My
-        Path</a>
-    </section>
-  </div>
-
-  <div class="item-3">
-    <h2 style="margin:25px;">Projects</h2>
-    <section id="Projects">
-      <a href="https://github.com/mattadlerpdx/programmingSytems-BattleRoyale" class="btn btn-dark btn-md active"
-        role="button" aria-pressed="true" id="myButton">Battle Royale</a>
-      <p>This is a project from my pre-req courses at PSU. It simulates a battle royale program
-        implemented with datastructures like circular linked lists and arrays of linked lists.</p>
-      <a href="https://github.com/mattadlerpdx/flaskApp" class="btn btn-dark btn-md active" role="button"
-        aria-pressed="true" id="resumeButton">FlaskApp</a>
-      <p>You can upload photos and let Google's API detect labels in that photo.
-
-        Another ML API is called to translate
-        those
-        labels
-        in the five most spoken languages in the world--MVC
-        architecture,
-        developed to run off gcloud. </p>
-      <a href="https://github.com/mattadlerpdx/computerSystemsProgramming-Plinko" class="btn btn-dark btn-md active"
-        role="button" aria-pressed="true" id="myButton">Plinko</a>
-      <p>A project from my computer systems programming course. 2d matrix Plinko board implemented in C.</p>
-    </section>
-  </div>
-
-  <div class='item-4'>
-    <form id='ContactMe'>
-      <h2>Message Me</h2>
-      <div class="form-group">
-        <label style="margin:5px;" for="Name">name</label>
-        <input type="text" class="form-control" id="Name" aria-describedby="Name" placeholder="Enter name">
+<body>
+  <main>
+    <div class="collapse " id="navbarToggleExternalContent">
+      <div class=" bg-dark p-4 ">
+        <ul class="navbar-nav ">
+          <li class="nav-item container">
+            <div class=" align-self-md-start flex-row d-flex justify-content-center">
+              <a class=" nav-text nav-link active " aria-current="page" href="#About">Who I Am</a>
+            </div>
+          </li>
+          <li class="nav-item container">
+            <div class="align-self-md-start flex-row d-flex justify-content-center">
+              <a class=" nav-text nav-link" href="#Resume">What I've Done</a>
+            </div>
+          </li>
+          <li class="nav-item container">
+            <div class="align-self-md-start flex-row d-flex justify-content-center">
+              <a class=" nav-text nav-link" href="#Projects">How I Think</a>
+            </div>
+          </li>
+          <li class="nav-item container">
+            <div class="align-self-md-start flex-row d-flex justify-content-center">
+              <a class=" nav-text nav-link " href="#ContactMe">Say Hello</a>
+            </div>
+          </li>
+        </ul>
       </div>
-      <div class="form-group">
-        <label style="margin:5px;" for="Email">email</label>
-        <input type="text" class="form-control" id="Email" aria-describedby="Email" placeholder="Enter email">
+    </div>
+    <nav class="nav-container navbar navbar-dark bg-dark bg-gradient">
+      <div class="  nav-div d-flex p-1">
+        <button class="  navbar-toggler " type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+          <span class='navbar-text '>MA</span>
+        </button>
       </div>
-      <div class="form-group">
-        <label style="margin:5px;" for="Message">message</label>
-        <input type="text" class="form-control" id="Message" placeholder="Write message here">
+    </nav>
+
+    <div class="flex-container ">
+      <div class="item-1" id="About ">
+        <h1 class="header">Matt Adler</h1>
+        <p class="blockquote about-me-text">Computer Science Student</p>
+        <p class="about-me-text">After teaching abroad for a few years, I
+          returned to PDX and entered the graduate program in computer science at PSU. Seeking a full time position.
+        </p>
       </div>
-      <a href="#ContactMe" class="mt-2 btn btn-dark btn- active" role="button" aria-pressed="true"
-        id="sendButton">Send</a>
-    </form>
+      <div class="item-2 ">
+        <h2>CV</h2>
+        <section id="Resume">
+          <a href="resume.html" class="btn btn-dark btn-md active" role="button" aria-pressed="true" id="cvButton">My
+            Path</a>
+        </section>
+      </div>
+      <div class="item-3">
+        <h2 style="margin:25px;">Projects</h2>
+        <section id="Projects">
+          <a href="https://github.com/mattadlerpdx/programmingSytems-BattleRoyale" class="btn btn-dark btn-md active"
+            role="button" aria-pressed="true" id="myButton">Battle Royale</a>
+          <p>This is a project from my pre-req courses at PSU. It simulates a battle royale program
+            implemented with datastructures like circular linked lists and arrays of linked lists.</p>
+          <a href="https://github.com/mattadlerpdx/flaskApp" class="btn btn-dark btn-md active" role="button"
+            aria-pressed="true" id="resumeButton">FlaskApp</a>
+          <p>You can upload photos and let Google's API detect labels in that photo.
+            Another ML API is called to translate
+            those
+            labels
+            in the five most spoken languages in the world--MVC
+            architecture,
+            developed to run off gcloud. </p>
+          <a href="https://github.com/mattadlerpdx/computerSystemsProgramming-Plinko" class="btn btn-dark btn-md active"
+            role="button" aria-pressed="true" id="myButton">Plinko</a>
+          <p>A project from my computer systems programming course. 2d matrix Plinko board implemented in C.</p>
+        </section>
+      </div>
 
-  </div>
-</div>
+      <form class="item-4" id="ContactMe">
+        <h2>Message Me</h2>
+
+        <div>
+          <label class="label" for="username"> Name: </label>
+          <input type="text" class="form-control" name="username" id="username" aria-describedby="username"
+            placeholder="What's your name?">
+
+        </div>
+        <div>
+          <label class="label" for="email">Email:</label>
+          <input type="text" class="form-control" id="email" aria-describedby="email" placeholder="Enter email">
+
+
+        </div>
+        <div>
+          <label class="label" for="message">Write here</label>
+          <input type="message" class="form-control" id="message" aria-describedby="message" placeholder="...">
+
+        </div>
+        <div>
+          <input class="mt-2 btn btn-dark btn- active" type="submit" value="submit" id="submit" />
+        </div>
+      </form>
 
 
 
@@ -121,7 +116,12 @@
 
 
 
+
+
+    </div>
+  </main>
+</body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-<body>
+</html>
