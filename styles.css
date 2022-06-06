@@ -1,6 +1,10 @@
 .header{
   color: var(--bs-dark);
 }
+.about-me-text{
+  
+  color: var(--bs-dark);
+}
 
 .nav-text {
   color: var(--bs-gray);
@@ -44,7 +48,7 @@
   background: linear-gradient(
     45deg,
     rgba(204, 88, 26, 0.747),
-    rgba(2, 1, 49, 0.671) 100%
+    rgba(2, 1, 49, 0.856) 100%
   );
   
   
