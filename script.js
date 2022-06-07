@@ -1,12 +1,22 @@
 let form = document.querySelector("form");
 form.addEventListener("submit", handleSubmit);
-
 function handleSubmit(event) {
     checkUser();
     checkEmail();
     checkMessage();
     event.preventDefault(event);
 }
+
+let item1 = document.querySelector(".item-1");
+let divImg = document.createElement("div");
+let img = document.createElement("img");
+img.src = 'me.jpeg';
+
+img.setAttribute("alt", "Matthew");
+img.style.borderRadius = "2.5%";
+img.style.margin = "5%";
+item1.append(divImg);
+divImg.append(img);
 function checkUser() {
     let userName = form.elements.username.value;
     if (userName !== "") {
@@ -38,15 +48,3 @@ function checkMessage() {
     }
 }
 
-
-
-let item1 = document.querySelector(".item-1");
-let divImg = document.createElement("div");
-let img = document.createElement("img");
-img.src = 'me.jpeg';
-
-img.setAttribute("alt", "Matthew");
-img.style.borderRadius = "2.5%";
-img.style.margin = "5%";
-item1.append(divImg);
-divImg.append(img);
